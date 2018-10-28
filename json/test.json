@@ -1,0 +1,33 @@
+{
+  "Remboursements":[
+    {
+      "id_pret": 1,
+      "rembourseur": "Julie",
+      "date": "23.09.2017",
+      "montant": 2000
+    }
+  ],
+  "Investissements":[
+    {
+      "investisseur": "boris",
+      "date": "24.05.2009",
+      "montant": 10000
+    }
+  ],
+  "prets": [
+    {
+    "id": 1,
+    "preteur": "test",
+    "date": "23.09.2017",
+    "montant": 200.5,
+    "type": "intern",
+    "ouvert": true,
+    "listInvestissement": [
+      {
+        "nomInvestisseur": "Matin",
+        "tauxInvestissement": 12.5
+      }
+    ]
+    }
+  ]
+}
